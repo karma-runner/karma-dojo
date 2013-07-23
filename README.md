@@ -5,7 +5,6 @@
 Check out examples on how to configure Dojo with Karma:
 - Karma's e2e test https://github.com/karma-runner/karma/tree/master/test/e2e/dojo
 
-
 ----
 
 For more information on Karma see the [homepage].
