@@ -1,4 +1,4 @@
-# karma-dojo  [![Build Status](https://travis-ci.org/karma-dojo.png?branch=master)](https://travis-ci.org/karma-dojo)
+# karma-dojo  [![Build Status](https://travis-ci.org/garcimouche/karma-dojo.png?branch=master)](https://travis-ci.org/karma-dojo)
 
 > Adapter for the [Dojo Toolkit](http://http://dojotoolkit.org/) framework.
 
