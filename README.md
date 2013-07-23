@@ -3,7 +3,7 @@
 > Adapter for the [Dojo Toolkit](http://http://dojotoolkit.org/) framework.
 
 Check out examples on how to configure Dojo with Karma:
-- Karma's e2e test https://github.com/karma-runner/karma/tree/master/test/e2e/dojo
+- Karma's e2e test https://github.com/garcimouche/karma/tree/feature-328/test/e2e/dojo
 
 ----
 

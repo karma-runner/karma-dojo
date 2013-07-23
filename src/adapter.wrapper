@@ -1,6 +1,6 @@
 (function(karma, dojoRequire) {
 
-  if(window.__karma__.dojoStart){
+  if(!window.__karma__.dojoStart){
       console.error('you have to define function window.__karma__.dojoStart returning an array of the test modules you wish to register');
       return;
   }
