@@ -1,6 +1,6 @@
 {
   "name": "karma-dojo-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Karma plugin. Adapter for Dojo Toolkit.  Forked from https://github.com/karma-runner/karma-dojo.  It will bootstrap with the version of dojo you have or will download the latest version for you.",
   "main": "lib/index.js",
   "scripts": {
