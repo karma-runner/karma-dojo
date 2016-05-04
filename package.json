@@ -29,5 +29,8 @@
     "karma": ">=0.9"
   },
   "license": "MIT",
-  "contributors": []
+  "contributors": [
+    "Mark Ethan Trostler <mark@zzo.com>",
+    "Vojta Jina <vojta.jina@gmail.com>"
+  ]
 }
