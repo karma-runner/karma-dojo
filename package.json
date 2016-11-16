@@ -18,10 +18,10 @@
   "author": "Franck Garcia <garcia.franck@gmail.com>",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6",
-    "grunt-karma": "1.x || ~0.3",
-    "grunt-bump": "~0.0.7",
+    "grunt": "~1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-karma": "2.0.0",
+    "grunt-bump": "~0.8.0",
     "grunt-npm": "~0.0.2",
     "grunt-auto-release": "~0.0.2"
   },
