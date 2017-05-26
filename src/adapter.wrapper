@@ -15,7 +15,22 @@
   var deps = window.__karma__.dojoStart();
   deps.push("dojo/domReady!");
 
-  require(
+  // This version of "require" downloads the dependencies one at a time, waiting
+  // until the first is ready before recursing down the list. This way, the spec
+  // files are executed in a dependable order run to run, which is important to
+  // maintain a consistent test execution ordering.
+  var serialRequire = function(deps, callback) {
+    if (deps.length == 0) {
+      callback();
+    } else {
+      var nextDep = deps.shift();
+      require([nextDep], function() {
+        serialRequire(deps, callback);
+      });
+    }
+  };
+
+  serialRequire(
       deps,function(){
           window.__karma__.start();
       }
